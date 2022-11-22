@@ -71,10 +71,6 @@ function App() {
                       }}
                     />
                   </div>
-                  {/*<div style={{ backgroundColor: "white", borderRadius: 5, padding: ".5rem", display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center", color:"maroon"}}>
-                    <FontAwesomeIcon size="1x" icon={faSignOutAlt} />
-                    <span style={{fontSize:10}}>Log Out</span>
-                  </div>*/}
                 </div>
                 <Switch>
                   <Route exact path="/home" component={home} />
