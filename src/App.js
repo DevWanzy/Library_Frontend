@@ -144,7 +144,7 @@ function App() {
                     });
                   } else {
                     let s = await ss.text();
-                    alert("Error Assigning Seat\n\n" + s);
+                    alert("Error Assigning Seat\n\nDetails: " + s);
                   }
                 });
               }}
